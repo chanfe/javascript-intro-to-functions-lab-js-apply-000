@@ -7,7 +7,7 @@ function whisper(string){
 }
 
 function logShout(string){
-  return string.toLowerCase();
+  console.log(string.toUpperCase());
 } 
 
 function logWhisper(string){
@@ -15,9 +15,7 @@ function logWhisper(string){
 }
 
 function sayHiToGrandma(string){
-  return string.toLowerCase();
-}
-
-function whisper(string){
-  return string.toLowerCase();
+  if(string == shout(string)){
+    return 
+  }
 }
